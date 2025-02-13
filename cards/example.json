@@ -1,0 +1,155 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "style": "emphasis",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "New device Example Example requested",
+          "wrap": true
+        }
+      ],
+      "padding": "Default"
+    },
+    {
+      "type": "Container",
+      "id": "8dc67899-9815-449d-89e3-4a9ac9975e26",
+      "padding": "Default",
+      "items": [
+        {
+          "type": "TextBlock",
+          "size": "Medium",
+          "weight": "Bolder",
+          "text": "New device requested from the user Example",
+          "wrap": true
+        }
+      ],
+      "spacing": "None",
+      "separator": true
+    },
+    {
+      "type": "Container",
+      "id": "885220a9-5ab1-95dd-5b66-20f42c452fa9",
+      "padding": "Default",
+      "items": [
+        {
+          "type": "TextBlock",
+          "weight": "Bolder",
+          "text": "Take your decison",
+          "wrap": true
+        }
+      ],
+      "separator": true,
+      "spacing": "None"
+    },
+    {
+      "type": "Container",
+      "id": "10017c5a-5ee9-46c5-537a-bdd9ab61225c",
+      "padding": {
+        "top": "None",
+        "bottom": "Default",
+        "left": "Default",
+        "right": "Default"
+      },
+      "items": [
+        {
+          "type": "Input.ChoiceSet",
+          "id": "Options",
+          "spacing": "None",
+          "placeholder": "",
+          "label": "",
+          "choices": [
+            {
+              "title": "Approve",
+              "value": "Approve"
+            },
+            {
+              "title": "Reject",
+              "value": "Reject"
+            },
+            {
+              "title": "More info needed",
+              "value": "More info needed"
+            }
+          ],
+          "style": "expanded"
+        }
+      ],
+      "spacing": "None"
+    },
+    {
+      "type": "Container",
+      "id": "3734939f-dd4d-79be-cf3c-2ad791f382ba",
+      "padding": {
+        "top": "Default",
+        "bottom": "None",
+        "left": "Default",
+        "right": "Default"
+      },
+      "items": [
+        {
+          "type": "Input.Text",
+          "id": "Comments",
+          "placeholder": "Add your comment here",
+          "label": "Comments:",
+          "isRequired": true,
+          "errorMessage": "Field required"
+        }
+      ],
+      "spacing": "None"
+    },
+    {
+      "type": "Container",
+      "id": "a27409f1-a48e-982f-8e26-594bdd1468e8",
+      "padding": "Default",
+      "items": [
+        {
+          "type": "ActionSet",
+          "horizontalAlignment": "Left",
+          "actions": [
+            {
+              "type": "Action.Http",
+              "title": "Submit",
+              "method": "POST",
+              "url": "Your URL",
+              "body": "{\"Option\": \"{{Options.value}}\", \"Comments\": \"{{Comments.value}}\",\"ac_id\": \"Example\"}",
+              "headers": [
+                {
+                  "name": "Authorization",
+                  "value": ""
+                },
+                {
+                  "name": "Content-Type",
+                  "value": "application/json"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "spacing": "None"
+    }
+  ],
+  "autoInvokeAction": {
+    "method": "POST",
+    "url": "Your URL",
+    "body": "{\"Option\": \"autoinvoke\", \"Comments\": \"\",\"ac_id\": \"Example\"}",
+    "type": "Action.Http",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": ""
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      }
+    ]
+  },
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.1",
+  "padding": "None",
+  "originator": "09651931-82bc-44a6-aa20-4860ec2202ec"
+}

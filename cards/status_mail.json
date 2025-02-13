@@ -1,0 +1,117 @@
+{
+    "arrow": {
+        "type": "Column",
+        "width": "auto",
+        "Items": [
+            {
+                "type": "TextBlock",
+                "text": "->",
+                "size": "Small",
+                "color": "accent"
+            }
+        ]
+    },
+    "behalf_of_pending": {
+        "type": "Column",
+        "width": "auto",
+        "Items": [
+            {
+                "type": "TextBlock",
+                "text": "[Behalf of Approval]",
+                "weight": "Bolder",
+                "size": "Small",
+                "color": "light"
+            }
+        ]
+    },
+    "behalf_of_approved": {
+        "type": "Column",
+        "width": "auto",
+        "Items": [
+            {
+                "type": "TextBlock",
+                "text": "Behalf of Approval",
+                "weight": "Bolder",
+                "size": "small",
+                "color": "good"
+            }
+        ]
+    },
+    "sap_default": {
+        "type": "Column",
+        "width": "auto",
+        "Items": [
+            {
+                "type": "TextBlock",
+                "text": "SAP Approval",
+                "size": "Small",
+                "color": "accent"
+            }
+        ]
+    },
+    "sap_pending": {
+        "type": "Column",
+        "width": "auto",
+        "Items": [
+            {
+                "type": "TextBlock",
+                "text": "[SAP Approval]",
+                "weight": "Bolder",
+                "size": "Small",
+                "color": "light"
+            }
+        ]
+    },
+    "sap_approved": {
+        "type": "Column",
+        "width": "auto",
+        "Items": [
+            {
+                "type": "TextBlock",
+                "text": "SAP Approval",
+                "weight": "Bolder",
+                "size": "Small",
+                "color": "good"
+            }
+        ]
+    },
+    "po_default": {
+        "type": "Column",
+        "width": "auto",
+        "Items": [
+            {
+                "type": "TextBlock",
+                "text": "Purchase Order Creation",
+                "weight": "Bolder",
+                "size": "Small",
+                "color": "accent"
+            }
+        ]
+    },
+    "po_pending": {
+        "type": "Column",
+        "width": "auto",
+        "Items": [
+            {
+                "type": "TextBlock",
+                "text": "[Purchase Order under Creation]",
+                "weight": "Bolder",
+                "size": "Small",
+                "color": "light"
+            }
+        ]
+    },
+    "po_created": {
+        "type": "Column",
+        "width": "auto",
+        "Items": [
+            {
+                "type": "TextBlock",
+                "text": "PO Created #",
+                "weight": "Bolder",
+                "size": "Small",
+                "color": "good"
+            }
+        ]
+    }
+}

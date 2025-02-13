@@ -1,0 +1,19 @@
+{
+    "date": "2025-01-16T10:04:17.0000000",
+    "total_purchase": "14.55",
+    "purchase_org": "BRSJ",
+    "supplier": "Gimba Suprimentos de Escritório e Informática",
+    "cost_center_owner": "",
+    "plant": "BRSJ Escritório São José dos Campos",
+    "address": "Rua Carlos Maria Auricchio, 70, São José dos Campos,  - SP, 12242-000",
+    "request_by": "LDELACER",
+    "approver_email": "",
+    "approver_name": "Ronaldo Galletti",
+    "id": "e3223068-28e2-ef11-a730-6045bd0257ef",
+    "total_currency": "BRL",
+    "on_behalf_of": "LDELACER",
+    "gl_account": "0113130107",
+    "cost_center": "FINCA",
+    "erp_supplier_id": "70005",
+    "poc_purchase_group": "CAT - Punchout"
+}

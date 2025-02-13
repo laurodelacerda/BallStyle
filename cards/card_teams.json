@@ -1,0 +1,729 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "30px",
+          "verticalContentAlignment": "Center",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://raw.githubusercontent.com/laurodelacerda/BallStyle/refs/heads/main/Ball-Logo-White.png",
+              "horizontalAlignment": "Center",
+              "spacing": "None",
+              "width": "35px",
+              "height": "25px"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "spacing": "Small",
+          "verticalContentAlignment": "Center",
+          "items": [
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Request ID",
+                      "wrap": true,
+                      "height": "stretch",
+                      "fontType": "Default",
+                      "size": "Small",
+                      "weight": "Bolder",
+                      "color": "Accent",
+                      "isSubtle": true,
+                      "spacing": "None",
+                      "horizontalAlignment": "Right"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "${id}",
+                      "wrap": true,
+                      "height": "stretch",
+                      "fontType": "Default",
+                      "size": "Small",
+                      "weight": "Bolder",
+                      "color": "Light",
+                      "isSubtle": false,
+                      "spacing": "Padding"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Requested by",
+                      "wrap": true,
+                      "height": "stretch",
+                      "fontType": "Default",
+                      "size": "Small",
+                      "weight": "Bolder",
+                      "color": "Accent",
+                      "isSubtle": true,
+                      "spacing": "Padding",
+                      "horizontalAlignment": "Right"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "${requested_by}",
+                      "wrap": true,
+                      "height": "stretch",
+                      "fontType": "Default",
+                      "size": "Small",
+                      "weight": "Bolder",
+                      "color": "Light",
+                      "isSubtle": false,
+                      "spacing": "Medium"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "On Behalf of",
+                      "wrap": true,
+                      "height": "stretch",
+                      "fontType": "Default",
+                      "size": "Small",
+                      "weight": "Bolder",
+                      "color": "Accent",
+                      "isSubtle": true,
+                      "spacing": "Small",
+                      "horizontalAlignment": "Right"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "${on_behalf_of}",
+                      "wrap": true,
+                      "height": "stretch",
+                      "fontType": "Default",
+                      "size": "Small",
+                      "weight": "Bolder",
+                      "color": "Light",
+                      "isSubtle": false,
+                      "spacing": "Medium"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Date",
+                      "wrap": true,
+                      "height": "stretch",
+                      "fontType": "Default",
+                      "size": "Small",
+                      "weight": "Bolder",
+                      "color": "Accent",
+                      "isSubtle": true,
+                      "spacing": "Small",
+                      "horizontalAlignment": "Right"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "${datetime}",
+                      "wrap": true,
+                      "height": "stretch",
+                      "fontType": "Default",
+                      "size": "Small",
+                      "weight": "Bolder",
+                      "color": "Light",
+                      "isSubtle": false,
+                      "spacing": "Medium"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "30px",
+          "verticalContentAlignment": "Center"
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "verticalContentAlignment": "Center",
+          "spacing": "Small",
+          "items": [
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Supplier",
+                      "wrap": true,
+                      "height": "stretch",
+                      "fontType": "Default",
+                      "size": "Small",
+                      "weight": "Bolder",
+                      "color": "Accent",
+                      "isSubtle": true,
+                      "spacing": "Small",
+                      "horizontalAlignment": "Right"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "${supplier}",
+                      "wrap": true,
+                      "height": "stretch",
+                      "fontType": "Default",
+                      "size": "Small",
+                      "weight": "Bolder",
+                      "color": "Light",
+                      "isSubtle": false,
+                      "spacing": "Medium"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Cost Center",
+                      "wrap": true,
+                      "height": "stretch",
+                      "fontType": "Default",
+                      "size": "Small",
+                      "weight": "Bolder",
+                      "color": "Accent",
+                      "isSubtle": true,
+                      "spacing": "Small",
+                      "horizontalAlignment": "Right"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "${cost_center}",
+                      "wrap": true,
+                      "height": "stretch",
+                      "fontType": "Default",
+                      "size": "Small",
+                      "weight": "Bolder",
+                      "color": "Light",
+                      "isSubtle": false,
+                      "spacing": "Medium"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Purchase Org",
+                      "wrap": true,
+                      "height": "stretch",
+                      "fontType": "Default",
+                      "size": "Small",
+                      "weight": "Bolder",
+                      "color": "Accent",
+                      "isSubtle": true,
+                      "spacing": "Small",
+                      "horizontalAlignment": "Right"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "${purchase_org}",
+                      "wrap": true,
+                      "height": "stretch",
+                      "fontType": "Default",
+                      "size": "Small",
+                      "weight": "Bolder",
+                      "color": "Light",
+                      "isSubtle": false,
+                      "spacing": "Medium"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Approver",
+                      "wrap": true,
+                      "height": "stretch",
+                      "fontType": "Default",
+                      "size": "Small",
+                      "weight": "Bolder",
+                      "color": "Accent",
+                      "isSubtle": true,
+                      "spacing": "Small",
+                      "horizontalAlignment": "Right"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "${approver}",
+                      "wrap": true,
+                      "height": "stretch",
+                      "fontType": "Default",
+                      "size": "Small",
+                      "weight": "Bolder",
+                      "color": "Light",
+                      "isSubtle": false,
+                      "spacing": "Medium"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "separator": true,
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Punchout Shopping Cart",
+              "wrap": true,
+              "height": "stretch",
+              "fontType": "Default",
+              "size": "Medium",
+              "weight": "Bolder",
+              "isSubtle": false,
+              "spacing": "None",
+              "horizontalAlignment": "left"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Table",
+      "firstRowAsHeader": true,
+      "showGridLines": true,
+      "gridStyle": "emphasis",
+      "columns": [
+        {
+          "width": 1
+        },
+        {
+          "width": 3
+        },
+        {
+          "width": 1
+        },
+        {
+          "width": 1
+        },
+        {
+          "width": 1
+        }
+      ],
+      "rows": [
+        {
+          "type": "TableRow",
+          "cells": [
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "UoM",
+                  "wrap": true,
+                  "color": "light",
+                  "weight": "Bolder"
+                }
+              ]
+            },
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Item",
+                  "wrap": true,
+                  "color": "light",
+                  "weight": "Bolder"
+                }
+              ]
+            },
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "$ per Item",
+                  "wrap": true,
+                  "color": "light",
+                  "weight": "Bolder"
+                }
+              ]
+            },
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Quantity",
+                  "wrap": true,
+                  "color": "light",
+                  "weight": "Bolder"
+                }
+              ]
+            },
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Total",
+                  "wrap": true,
+                  "color": "light",
+                  "weight": "Bolder"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "TableRow",
+          "cells": [
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "${cart[0].uom}",
+                  "wrap": true,
+                  "color": "light"
+                }
+              ]
+            },
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "${cart[0].item}",
+                  "wrap": true,
+                  "color": "light"
+                }
+              ]
+            },
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "${cart[0].value_item}",
+                  "wrap": true,
+                  "color": "light"
+                }
+              ]
+            },
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "${cart[0].quantity}",
+                  "wrap": true,
+                  "color": "light"
+                }
+              ]
+            },
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "${cart[0].total_item}",
+                  "wrap": true,
+                  "color": "light"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "TableRow",
+          "cells": [
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "${cart[1].uom}",
+                  "wrap": true,
+                  "color": "light"
+                }
+              ]
+            },
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "${cart[1].item}",
+                  "wrap": true,
+                  "color": "light"
+                }
+              ]
+            },
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "${cart[1].value_item}",
+                  "wrap": true,
+                  "color": "light"
+                }
+              ]
+            },
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "${cart[1].quantity}",
+                  "wrap": true,
+                  "color": "light"
+                }
+              ]
+            },
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "${cart[1].total_item}",
+                  "wrap": true,
+                  "color": "light"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "separator": true,
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "spacing": "Large",
+          "items": [
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "$ Total Value",
+                      "wrap": true,
+                      "height": "stretch",
+                      "fontType": "Default",
+                      "size": "Medium",
+                      "weight": "Bolder",
+                      "color": "light",
+                      "spacing": "Padding",
+                      "horizontalAlignment": "Right"
+                    }
+                  ]
+                },
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "${total_value}",
+                      "wrap": true,
+                      "height": "stretch",
+                      "fontType": "Default",
+                      "size": "Medium",
+                      "weight": "Bolder",
+                      "color": "Light",
+                      "isSubtle": false,
+                      "spacing": "Medium",
+                      "horizontalAlignment": "Right"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.OpenUrl",
+                  "title": "Approve",
+                  "url": "${url_approve}",
+                  "style": "positive"
+                }
+              ],
+              "horizontalAlignment": "Center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                {
+                  "type": "Action.OpenUrl",
+                  "title": "Deny",
+                  "url": "${url_deny}",
+                  "style": "destructive"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "spacing": "Large",
+          "items": [
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "⏳ SAP Approval",
+                      "wrap": true,
+                      "height": "stretch",
+                      "fontType": "Default",
+                      "size": "Medium",
+                      "weight": "Bolder",
+                      "color": "Dark",
+                      "spacing": "Padding",
+                      "horizontalAlignment": "Left"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "msteams": {
+    "width": "Full"
+  },
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5",
+  "backgroundImage": {
+    "url": "https://raw.githubusercontent.com/laurodelacerda/BallStyle/refs/heads/main/Apresenta%C3%A7%C3%A3o1.jpg"
+  }
+}

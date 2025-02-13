@@ -1,0 +1,14 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Your response has been successfully registered."
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.4",
+    "backgroundImage": {
+        "url": "https://raw.githubusercontent.com/laurodelacerda/BallStyle/refs/heads/main/Apresenta%C3%A7%C3%A3o1.jpg"
+    }
+}

@@ -1,0 +1,190 @@
+{
+  "type": "Container",
+  "items": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "UoM",
+              "weight": "Bolder",
+              "horizontalAlignment": "Center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Item",
+              "weight": "Bolder",
+              "horizontalAlignment": "Center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "$ per Item",
+              "weight": "Bolder",
+              "horizontalAlignment": "Center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Quantity",
+              "weight": "Bolder",
+              "horizontalAlignment": "Center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Total Value",
+              "weight": "Bolder",
+              "horizontalAlignment": "Center"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "@{outputs('Data').cart[0].uom}",
+              "horizontalAlignment": "Center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "@{outputs('Data').cart[0].item}",
+              "horizontalAlignment": "Left"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "@{outputs('Data').cart[0].value_item}",
+              "horizontalAlignment": "Center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "@{outputs('Data').cart[0].quantity}",
+              "horizontalAlignment": "Center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "@{outputs('Data').cart[0].total_value}",
+              "horizontalAlignment": "Center"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "@{outputs('Data').cart[1].uom}",
+              "horizontalAlignment": "Center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "@{outputs('Data').cart[1].item}",
+              "horizontalAlignment": "Left"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "@{outputs('Data').cart[1].value_item}",
+              "horizontalAlignment": "Center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "@{outputs('Data').cart[1].quantity}",
+              "horizontalAlignment": "Center"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "@{outputs('Data').cart[1].total_value}",
+              "horizontalAlignment": "Center"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

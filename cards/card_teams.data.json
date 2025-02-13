@@ -1,0 +1,29 @@
+{
+  "id": "12345678910",
+  "requested_by": "hnascim2@ball.com",
+  "on_behalf_of": "ldelacer@ball.com",
+  "datetime": "2025-01-31 12:30:00",
+  "supplier": "Gimba",
+  "cost_center": "FINCA",
+  "purchase_org": "BRSJ",
+  "approver": "Ronaldo Galleti",
+  "cart": [
+    {
+      "uom": "UN",
+      "item": "Caderno Universitário Capa Dura 200 Folhas Zip Cores Sortidas 1 UN Tilibra",
+      "value_item": "R$ 20,00",
+      "quantity": "2000",
+      "total_item": "R$ 40.000,00"
+    },
+    {
+      "uom": "UN",
+      "item": "C CADERNO CAPA DURA C/ 100 FLS NUMERADAS",
+      "value_item": "R$ 20,00",
+      "quantity": "1000",
+      "total_item": "R$ 20.000,00"
+    }
+  ],
+  "total_items": "3000",
+  "total_value": "R$ 60.0000,00",
+  "url": "https://prod-04.westus.logic.azure.com:443/workflows/3f3230f8dc6749509385f911bca3ea96/triggers/manual/paths/invoke?api-version=2016-06-01"
+}

@@ -1,0 +1,193 @@
+{
+  "type": "Table",
+  "gridStyle": "accent",
+  "columns": [
+    {
+      "width": 1
+    },
+    {
+      "width": 3
+    },
+    {
+      "width": 1
+    },
+    {
+      "width": 1
+    },
+    {
+      "width": 1
+    }
+  ],
+  "rows": [
+    {
+      "type": "TableRow",
+      "cells": [
+        {
+          "type": "TableCell",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "UoM",
+              "wrap": true,
+              "weight": "Bolder"
+            }
+          ]
+        },
+        {
+          "type": "TableCell",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Item",
+              "wrap": true,
+              "weight": "Bolder"
+            }
+          ]
+        },
+        {
+          "type": "TableCell",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "$ per Item",
+              "wrap": true,
+              "weight": "Bolder"
+            }
+          ]
+        },
+        {
+          "type": "TableCell",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Quantity",
+              "wrap": true,
+              "weight": "Bolder"
+            }
+          ]
+        },
+        {
+          "type": "TableCell",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Total",
+              "wrap": true,
+              "weight": "Bolder"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "TableRow",
+      "cells": [
+        {
+          "type": "TableCell",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "@{outputs('Data').cart[0].uom}",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "TableCell",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "@{outputs('Data').cart[0].item}",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "TableCell",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "@{outputs('Data').cart[0].value_item}",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "TableCell",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "@{outputs('Data').cart[0].quantity}",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "TableCell",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "@{outputs('Data').cart[0].total_item}",
+              "wrap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "TableRow",
+      "cells": [
+        {
+          "type": "TableCell",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "@{outputs('Data').cart[1].uom}",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "TableCell",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "@{outputs('Data').cart[1].item}",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "TableCell",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "@{outputs('Data').cart[1].value_item}",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "TableCell",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "@{outputs('Data').cart[1].quantity}",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "TableCell",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "@{outputs('Data').cart[1].total_item}",
+              "wrap": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
